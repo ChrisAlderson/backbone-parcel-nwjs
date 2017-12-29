@@ -8,6 +8,12 @@ Simple Parcel Backbone and NW.js app
 
 ## Usage
 
+To run the application you need to run two commands at the same time:
+ - `npm run parcel`, for watching and bundling
+ - `npm run nwjs`, to run the nwjs instance
+
+### scripts
+
 ```
  $ npm run build    # Compile binaries
  $ npm run lint     # Lint with standard
