@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <title>Hello Backbone</title>
+  </head>
+  <body>
+    <div id='app'></div>
+    <script id='tpl_list' type='text/template'>
+      <p>
+        <button class='btn btn-sm btn-info' id='add'>
+          Add list item
+        </button>
+      </p>
+      <ul></ul>
+    </script>
+    <script id='tpl_list_item' type='text/template'>
+      <span>
+        <%= part1 %> <%= part2 %>
+        <i class='swap fa fa-arrows-h'></i>
+        <i class='delete fa fa-trash-o'></i>
+      </span>
+    </script>
+    <script src="index.js"></script>
+  </body>
+</html>
